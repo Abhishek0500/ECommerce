@@ -1,0 +1,195 @@
+/* Reset Styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* Navigation bar */
+.navbar {
+  background-color: #333; /* Background color */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff; /* Text color */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Text color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto; /* Center content horizontally */
+  overflow: hidden;
+}
+
+.btn-primary {
+  background-color: #1a0c9f; /* Update button color */
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 20px;
+  min-height: 70px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Navbar Styles */
+.navbar-nav {
+  float: none; /* Center navigation */
+  text-align: center; /* Center navigation links */
+}
+
+.navbar-brand {
+  float: none;
+  padding-left: 0;
+  font-size: 1.8em;
+  height: 50px;
+  line-height: 50px;
+}
+
+.navbar-nav li {
+  display: inline-block; /* Display navigation items horizontally */
+  margin-right: 2px;
+}
+
+.navbar-nav li a {
+  padding-top: 20px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+  background: url('hero.jpg') center center no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: #0cadc3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h1 {
+  font-size: 3em;
+}
+
+#hero p {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+/* About Section Styles */
+#about {
+  padding: 50px 0;
+}
+
+#about h2 {
+  font-size: 2em;
+}
+
+#about p {
+  margin-top: 20px;
+}
+
+/* Project Section Styles */
+#project {
+  padding: 50px 0;
+}
+
+#project h2 {
+  font-size: 2em;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+
+.project-item img {
+  width: 100%; /* Make images fill the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card {
+  text-align: center; /* Center card content */
+}
+
+.card-body {
+  min-height: 300px; /* Ensure consistent height for cards */
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px; /* Add space below title */
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media(max-width: 768px) {
+  .navbar-nav {
+    margin-top: 25px;
+  }
+
+  .navbar-nav li {
+    display: block; /* Display navigation items vertically */
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 10px; /* Add space between navigation items */
+  }
+
+  .navbar-brand {
+    margin-bottom: 20px; /* Add space below the logo */
+  }
+
+  #hero h1 {
+    font-size: 2.5em;
+  }
+
+  #hero p {
+    font-size: 1.2em;
+  }
+}
